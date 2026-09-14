@@ -37,9 +37,7 @@ const productosPorCategoria = {
   ],
 };
 
-/* =========================
-   LISTA DE PRODUCTOS (VER MÁS)
-   ========================= */
+/*ver mas lista productos*/
 
 function abrirListaProductos(categoria) {
   fetch("./listaProductos/ListaProductos.html")
@@ -87,9 +85,7 @@ function abrirDetallePorId(categoria, idProducto) {
   }
 }
 
-/* Busca en productosPorCategoria (usado por los itemMenor del Home)
-   y normaliza los campos con sufijo "1" al mismo molde que espera
-   abrirDetalleProducto: { nombre, precio, imagen, descripcion } */
+
 function abrirDetallePorId1(categoria, idProducto) {
   const productos = productosPorCategoria[categoria] || [];
   const productoEncontrado = productos.find((p) => p.id1 === idProducto);
@@ -105,9 +101,9 @@ function abrirDetallePorId1(categoria, idProducto) {
   }
 }
 
-/* =========================
-   MODAL DE DETALLE (único, compartido por ambas fuentes de datos)
-   ========================= */
+/* 
+   MODAL DE DETALLE */
+  
 
 function abrirDetalleProducto(producto) {
   fetch("./detalleProducto/detalleProducto.html")
