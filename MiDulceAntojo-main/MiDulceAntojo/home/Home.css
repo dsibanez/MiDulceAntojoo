@@ -1,0 +1,384 @@
+:root {
+  --color-fondo: #091016;
+  --color-tarjeta: #151d24;
+  --color-rosa-primario: #f4e3e7;
+  --color-rosa-secundario: #8c4c6e;
+  --color-acento-gris: #5a646e;
+  --color-texto-principal: #ffffff;
+  --color-texto-secundario: #b8b6b7;
+  --border-radius: 30px;
+}
+
+.vast-shadow-regular {
+  font-family: "Vast Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body,
+.body {
+  background-color: var(--color-fondo);
+  font-family: "Dancing Script", cursive;
+  color: var(--color-texto-principal);
+  margin: 0;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--color-tarjeta);
+  border: 1px solid rgba(244, 227, 231, 0.1);
+  max-height: 10dvh;
+  border-radius: var(--border-radius);
+  margin-bottom: 1dvh;
+  padding: 0.5dvh 2dvh;
+}
+
+.logoSupIzq {
+  width: 9dvh;
+  height: 9dvh;
+  object-fit: contain;
+}
+
+.LogoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.BusquedaContainer {
+  display: flex;
+  align-items: center;
+  max-height: 10dvh;
+  min-height: 10dvh;
+  flex-direction: row;
+  position: relative;
+  border-radius: var(--border-radius);
+  padding-right: 1dvh;
+}
+
+.inputBuscar {
+  border-radius: 70px;
+  max-height: 6dvh;
+  min-height: 6dvh;
+  max-width: 30dvh;
+  min-width: 25dvh;
+  border: 1px solid var(--color-rosa-secundario);
+  background-color: var(--color-fondo);
+  color: var(--color-texto-principal);
+  padding: 0 15px;
+  font-family: Arial, sans-serif;
+  outline: none;
+}
+
+.inputBuscar::placeholder {
+  color: var(--color-texto-secundario);
+}
+
+.icono-buscar {
+  border-radius: 70px;
+  max-height: 6dvh;
+  min-height: 6dvh;
+  max-width: 6dvh;
+  min-width: 6dvh;
+  background-color: var(--color-rosa-secundario);
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  transition: background-color 0.3s ease;
+}
+
+.icono-buscar:hover {
+  background-color: var(--color-rosa-primario);
+}
+
+/* ESTILOS TÍTULO */
+.TituloBienvenida {
+  text-align: center;
+  font-size: 8dvh;
+  margin-top: 4dvh;
+  color: var(--color-rosa-primario);
+}
+
+/* SECCIONES Y CONTENEDORES */
+.advertising {
+  background-color: transparent;
+  align-items: center;
+  display: flex;
+  justify-content: left;
+  gap: 5vh;
+  padding: 3% 1%;
+  height: 60dvh;
+}
+
+@media (max-width: 767px) {
+  .advertising {
+    flex-direction: column;
+    height: auto;
+  }
+  .ad1,
+  .ad2,
+  .contenedorItemMenor,
+  .itemMayor {
+    min-width: 100% !important;
+    width: 100% !important;
+  }
+}
+
+.ad1 {
+  background-image: url("../imagenes/logo-midulce-antojo (1).svg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  gap: 15px;
+  width: 35%;
+  height: 60dvh;
+}
+
+.ad2 {
+  background-color: var(--color-tarjeta);
+  border: 1px solid rgba(244, 227, 231, 0.15);
+  display: flex;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+  width: 65%;
+  height: 60dvh;
+  border-radius: var(--border-radius);
+}
+
+.ad2 h1 {
+  font-size: 7dvh;
+  color: var(--color-rosa-primario);
+}
+
+/* ESTILOS DE CATEGORÍAS Y PRODUCTOS */
+.tituloSeccion {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-tarjeta);
+  justify-content: left;
+  margin-top: 2dvh;
+  padding: 1dvh 3dvh;
+  border-radius: var(--border-radius);
+  border-left: 1px solid var(--color-rosa-secundario);
+}
+
+.tituloSeccion h2 {
+  font-size: 6dvh;
+  margin: 0;
+  color: var(--color-rosa-primario);
+}
+
+.itemMayor {
+  background-color: var(--color-tarjeta);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  border-radius: var(--border-radius);
+  width: 40%;
+  height: 60dvh;
+}
+
+.contenedorItemMenor {
+  background-color: var(--color-tarjeta);
+  border-radius: var(--border-radius);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 3dvh;
+  width: 60%;
+  height: 60dvh;
+  box-sizing: border-box;
+}
+
+.contenedorItemMenor h3 {
+  font-size: 4.5dvh;
+  margin: 0 0 2dvh 0;
+  color: var(--color-texto-secundario);
+}
+
+.filaItemMenor {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  gap: 15px;
+}
+
+.itemMenor {
+  border-radius: calc(var(--border-radius) / 2);
+  display: flex;
+  background-color: var(--color-fondo);
+  background-size: cover;
+  background-position: center;
+  align-items: flex-end;
+  width: 30%;
+  height: 20dvh;
+  cursor: pointer;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.itemMenor:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-rosa-primario);
+}
+
+.descripcionItem {
+  display: flex;
+  background-color: rgba(9, 16, 22, 0.85);
+  backdrop-filter: blur(4px);
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 5dvh;
+  padding: 0 5px;
+  text-align: center;
+}
+
+.descripcionItem h5 {
+  font-size: 1.8dvh;
+  margin: 0;
+  color: var(--color-rosa-primario);
+  font-family: Arial, sans-serif;
+  font-weight: 600;
+}
+
+/* BOTÓN VER MÁS */
+.masItems {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.verMas {
+  display: flex;
+  background-color: var(--color-rosa-secundario);
+  color: #ffffff;
+  border-radius: var(--border-radius);
+  align-items: center;
+  justify-content: center;
+  width: 30%;
+  height: 6dvh;
+  cursor: pointer;
+  transition:
+    background-color 0.3s ease,
+    transform 0.3s ease;
+}
+
+.verMas h4 {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  font-size: 2dvh;
+  letter-spacing: 1px;
+}
+
+.verMas:hover {
+  background-color: var(--color-rosa-primario);
+  color: var(--color-fondo);
+  transform: scale(1.03);
+}
+
+/* PRODUCTOS MÁS VENDIDOS */
+.tituloMasVendidos {
+  display: flex;
+  align-items: center;
+  background-color: var(--color-tarjeta);
+  justify-content: center;
+  margin-top: 3dvh;
+  padding: 1dvh 2dvh;
+  border-radius: var(--border-radius);
+}
+
+.tituloMasVendidos h2 {
+  font-size: 6dvh;
+  margin: 0;
+  color: var(--color-rosa-primario);
+}
+
+.topProductos {
+  align-items: center;
+  display: flex;
+  justify-content: space-evenly;
+  gap: 5vh;
+  padding: 3% 1%;
+  height: 60dvh;
+}
+
+.topProducto1,
+.topProducto2 {
+  background-color: var(--color-tarjeta);
+  border: 1px solid rgba(244, 227, 231, 0.15);
+  border-radius: var(--border-radius);
+  width: 45%;
+  height: 60dvh;
+  cursor: pointer;
+  transition:
+    transform 0.3s ease,
+    border-color 0.3s ease;
+}
+
+.topProducto1:hover,
+.topProducto2:hover {
+  transform: translateY(-5px);
+  border-color: var(--color-rosa-secundario);
+}
+
+/* FOOTER */
+.footer {
+  background-color: var(--color-tarjeta);
+  border-top: 1px solid rgba(244, 227, 231, 0.1);
+  color: var(--color-texto-secundario);
+  padding: 5dvh 4dvh;
+  margin-top: 4dvh;
+  font-family: Arial, sans-serif;
+}
+
+.footerColumna h4 {
+  color: var(--color-rosa-primario);
+  font-size: 2dvh;
+  margin-bottom: 2dvh;
+}
+
+.footerLista li {
+  font-size: 1.6dvh;
+  margin-bottom: 1.2dvh;
+  cursor: pointer;
+  transition: color 0.2s ease;
+}
+
+.footerLista li:hover {
+  color: var(--color-rosa-primario);
+}
+
+.footerSuscripcion {
+  border: 1px solid var(--color-rosa-secundario);
+  border-radius: 12px;
+  background-color: rgba(9, 16, 22, 0.5);
+  padding: 2dvh;
+  margin-bottom: 2dvh;
+}
+
+.footerIcono {
+  border: 1px solid var(--color-rosa-primario);
+  border-radius: 50%;
+  width: 5dvh;
+  height: 5dvh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: background-color 0.3s ease;
+}
+
+.footerIcono:hover {
+  background-color: var(--color-rosa-secundario);
+}
