@@ -54,7 +54,7 @@ body {
 
 /* --- EL CUADRO BLANCO --- */
 .cuadro-blanco {
-  background-color: rgb(35, 36, 34);
+  background-color: var(--color-fondo);
   padding: 30px;
   border-radius: 22px; /* Bordes redondeados */
   box-shadow: 10px 10px 110px rgba(184, 182, 183, 0.39); /* Sombra suave para que flote */

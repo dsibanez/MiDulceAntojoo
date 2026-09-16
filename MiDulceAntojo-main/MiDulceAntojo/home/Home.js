@@ -1,42 +1,241 @@
 const productosLista = {
   pasteles: [
-    { precio: "$ 231", nombre: "Pastel de chocolate", id: "pastel-chocolate", imagen: "../imagenes/pastel chocolate.jpg", descripcion: "Delicioso pastel de chocolate con capas de bizcocho esponjoso y relleno de crema de chocolate." },
-    { precio: "$ 890", nombre: "Pastel de fresa", id: "pastel-fresa", imagen: "../imagenes/pastel fresa.jpg", descripcion: "Delicioso pastel de fresa con capas de bizcocho esponjoso y relleno de crema de fresa." },
-    { precio: "$ 565", nombre: "Pastel de vainilla", id: "pastel-vainilla", imagen: "../imagenes/pastel vainilla.jpg", descripcion: "Delicioso pastel de vainilla con capas de bizcocho esponjoso y relleno de crema de vainilla." },
-    { precio: "$ 340", nombre: "Pastel red velvet", id: "pastel-red-velvet", imagen: "../imagenes/pastel red velvet.jpg", descripcion: "Delicioso pastel red velvet con capas de bizcocho esponjoso y relleno de crema de red velvet." },
-    { precio: "$ 410", nombre: "Pastel tres leches", id: "pastel-tres-leches", imagen: "../imagenes/pastel tres leches.jpg", descripcion: "Delicioso pastel tres leches con capas de bizcocho esponjoso y relleno de crema de tres leches." },
-    { precio: "$ 275", nombre: "Pastel de limón", id: "pastel-limon", imagen: "../imagenes/pastel limon.jpg", descripcion: "Delicioso pastel de limón con capas de bizcocho esponjoso y relleno de crema de limón." },
+    {
+      precio: "$ 25.000",
+      nombre: "Pastel de chocolate",
+      id: "pastel-chocolate",
+      imagen: "../imagenes/pastel chocolate.jpg",
+      descripcion:
+        "Delicioso pastel de chocolate con capas de bizcocho esponjoso y relleno de crema de chocolate.",
+    },
+    {
+      precio: "$ 28.000",
+      nombre: "Pastel de fresa",
+      id: "pastel-fresa",
+      imagen: "../imagenes/pastel fresa.jpg",
+      descripcion:
+        "Delicioso pastel de fresa con capas de bizcocho esponjoso y relleno de crema de fresa.",
+    },
+    {
+      precio: "$ 22.000",
+      nombre: "Pastel de vainilla",
+      id: "pastel-vainilla",
+      imagen: "../imagenes/pastel vainilla.jpg",
+      descripcion:
+        "Delicioso pastel de vainilla con capas de bizcocho esponjoso y relleno de crema de vainilla.",
+    },
+    {
+      precio: "$ 30.000",
+      nombre: "Pastel red velvet",
+      id: "pastel-red-velvet",
+      imagen: "../imagenes/pastel red velvet.jpg",
+      descripcion:
+        "Delicioso pastel red velvet con capas de bizcocho esponjoso y relleno de crema de red velvet.",
+    },
+    {
+      precio: "$ 27.000",
+      nombre: "Pastel tres leches",
+      id: "pastel-tres-leches",
+      imagen: "../imagenes/pastel tres leches.jpg",
+      descripcion:
+        "Delicioso pastel tres leches con capas de bizcocho esponjoso y relleno de crema de tres leches.",
+    },
+    {
+      precio: "$ 24.000",
+      nombre: "Pastel de limón",
+      id: "pastel-limon",
+      imagen: "../imagenes/pastel limon.jpg",
+      descripcion:
+        "Delicioso pastel de limón con capas de bizcocho esponjoso y relleno de crema de limón.",
+    },
+    {
+      precio: "$ 25.000",
+      nombre: "Pastel de chocolate",
+      id: "pastel-chocolate",
+      imagen: "../imagenes/pastel chocolate.jpg",
+      descripcion:
+        "Delicioso pastel de chocolate con capas de bizcocho esponjoso y relleno de crema de chocolate.",
+    },
+    {
+      precio: "$ 28.000",
+      nombre: "Pastel de fresa",
+      id: "pastel-fresa",
+      imagen: "../imagenes/pastel fresa.jpg",
+      descripcion:
+        "Delicioso pastel de fresa con capas de bizcocho esponjoso y relleno de crema de fresa.",
+    },
+    {
+      precio: "$ 22.000",
+      nombre: "Pastel de vainilla",
+      id: "pastel-vainilla",
+      imagen: "../imagenes/pastel vainilla.jpg",
+      descripcion:
+        "Delicioso pastel de vainilla con capas de bizcocho esponjoso y relleno de crema de vainilla.",
+    },
+    {
+      precio: "$ 30.000",
+      nombre: "Pastel red velvet",
+      id: "pastel-red-velvet",
+      imagen: "../imagenes/pastel red velvet.jpg",
+      descripcion:
+        "Delicioso pastel red velvet con capas de bizcocho esponjoso y relleno de crema de red velvet.",
+    },
+    {
+      precio: "$ 27.000",
+      nombre: "Pastel tres leches",
+      id: "pastel-tres-leches",
+      imagen: "../imagenes/pastel tres leches.jpg",
+      descripcion:
+        "Delicioso pastel tres leches con capas de bizcocho esponjoso y relleno de crema de tres leches.",
+    },
+    {
+      precio: "$ 24.000",
+      nombre: "Pastel de limón",
+      id: "pastel-limon",
+      imagen: "../imagenes/pastel limon.jpg",
+      descripcion:
+        "Delicioso pastel de limón con capas de bizcocho esponjoso y relleno de crema de limón.",
+    },
   ],
   galletas: [
-    { precio: "$ 45", nombre: "Galleta de avena", id: "galleta-avena", imagen: "../imagenes/galleta avena.jpg", descripcion: "Galleta crujiente de avena." },
-    { precio: "$ 50", nombre: "Galleta de chispas", id: "galleta-chispas", imagen: "../imagenes/galleta chispas.jpg", descripcion: "Galleta clásica con chispas de chocolate." },
-    { precio: "$ 38", nombre: "Galleta de mantequilla", id: "galleta-mantequilla", imagen: "../imagenes/galleta mantequilla.jpg", descripcion: "Suave galleta de mantequilla artesanal." },
+    {
+      precio: "$ 6.000",
+      nombre: "Galleta de avena",
+      id: "galleta-avena",
+      imagen: "../imagenes/galleta avena.jpg",
+      descripcion: "Galleta crujiente de avena.",
+    },
+    {
+      precio: "$ 7.000",
+      nombre: "Galleta de chispas",
+      id: "galleta-chispas",
+      imagen: "../imagenes/galleta chispas.jpg",
+      descripcion: "Galleta clásica con chispas de chocolate.",
+    },
+    {
+      precio: "$ 6.500",
+      nombre: "Galleta de mantequilla",
+      id: "galleta-mantequilla",
+      imagen: "../imagenes/galleta mantequilla.jpg",
+      descripcion: "Suave galleta de mantequilla artesanal.",
+    },
   ],
   postres: [
-    { precio: "$ 120", nombre: "Flan de vainilla", id: "flan-vainilla", imagen: "../imagenes/flan.jpg", descripcion: "Flan casero con caramelo." },
-    { precio: "$ 95", nombre: "Mousse de chocolate", id: "mousse-chocolate", imagen: "../imagenes/mousse.jpg", descripcion: "Cremoso mousse de chocolate amargo." },
-    { precio: "$ 150", nombre: "Tiramisú", id: "tiramisu", imagen: "../imagenes/tiramisu.jpg", descripcion: "Postre italiano con café y queso mascarpone." },
+    {
+      precio: "$ 12.000",
+      nombre: "Flan de vainilla",
+      id: "flan-vainilla",
+      imagen: "../imagenes/flan.jpg",
+      descripcion: "Flan casero con caramelo.",
+    },
+    {
+      precio: "$ 13.500",
+      nombre: "Mousse de chocolate",
+      id: "mousse-chocolate",
+      imagen: "../imagenes/mousse.jpg",
+      descripcion: "Cremoso mousse de chocolate amargo.",
+    },
+    {
+      precio: "$ 16.000",
+      nombre: "Tiramisú",
+      id: "tiramisu",
+      imagen: "../imagenes/tiramisu.jpg",
+      descripcion: "Postre italiano con café y queso mascarpone.",
+    },
   ],
 };
 
 const productosPorCategoria = {
   pasteles: [
-    { precio1: "$ 231", nombre1: "Pastel personalizado", id1: "pasteles-personalizados", imagen1: "../imagenes/pastel personalizado.webp", descripcion1: "personaliza tu pastel" },
-    { precio1: "$ 890", nombre1: "Pastel cumpleaños", id1: "pastel-cumpleaños", imagen1: "../imagenes/pastel cumpleaños.jpg", descripcion1: "Los mejores pasteles, perfectos para una ocasion especial." },
-    { precio1: "$ 565", nombre1: "Pastel sabores irresistibles", id1: "pastel-irresistible", imagen1: "../imagenes/sabores irresistibles.jpg", descripcion1: "no se que poner." },
+    {
+      precio1: "$ 30.000",
+      nombre1: "Pastel personalizado",
+      id1: "pasteles-personalizados",
+      imagen1: "../imagenes/pastel personalizado.webp",
+      descripcion1: "personaliza tu pastel",
+    },
+    {
+      precio1: "$ 28.000",
+      nombre1: "Pastel cumpleaños",
+      id1: "pastel-cumpleaños",
+      imagen1: "../imagenes/pastel cumpleaños.jpg",
+      descripcion1:
+        "Los mejores pasteles, perfectos para una ocasion especial.",
+    },
+    {
+      precio1: "$ 22.000",
+      nombre1: "Pastel sabores irresistibles",
+      id1: "pastel-irresistible",
+      imagen1: "../imagenes/sabores irresistibles.jpg",
+      descripcion1: "no se que poner.",
+    },
   ],
   galletas: [
-    { precio1: "$ 45", nombre1: "Galletas de chocolate", id1: "galleta-chocolate", imagen1: "../imagenes/galletas chocolate.jpg", descripcion1: "Galleta crujiente de chocolate." },
-    { precio1: "$ 50", nombre1: "Galletas artesanales", id1: "galleta-artesanales", imagen1: "../imagenes/galletas artesanales.jpg", descripcion1: "Galleta artesanal, un sabor nuevo." },
-    { precio1: "$ 38", nombre1: "Galletas decoradas", id1: "galleta-decoradas", imagen1: "../imagenes/galletas decoradas.jpg", descripcion1: "Galleta decorada con azúcar glass." },
+    {
+      precio1: "$ 7.500",
+      nombre1: "Galletas de chocolate",
+      id1: "galleta-chocolate",
+      imagen1: "../imagenes/galletas chocolate.jpg",
+      descripcion1: "Galleta crujiente de chocolate.",
+    },
+    {
+      precio1: "$ 8.000",
+      nombre1: "Galletas artesanales",
+      id1: "galleta-artesanales",
+      imagen1: "../imagenes/galletas artesanales.jpg",
+      descripcion1: "Galleta artesanal, un sabor nuevo.",
+    },
+    {
+      precio1: "$ 9.000",
+      nombre1: "Galletas decoradas",
+      id1: "galleta-decoradas",
+      imagen1: "../imagenes/galletas decoradas.jpg",
+      descripcion1: "Galleta decorada con azúcar glass.",
+    },
   ],
   postres: [
-    { precio1: "$ 120", nombre1: "Cheesecakes", id1: "cheesecake", imagen1: "../imagenes/cheesecake.jpg", descripcion1: "Flan casero con caramelo." },
-    { precio1: "$ 95", nombre1: "Postres de chocolate", id1: "postres-chocolate", imagen1: "../imagenes/postres chocolate.png", descripcion1: "Cremoso mousse de chocolate amargo." },
-    { precio1: "$ 150", nombre1: "postres artesanales", id1: "postres-artesanales", imagen1: "../imagenes/postres artesanales.jpg", descripcion1: "Postre artesanal con café y queso mascarpone." },
+    {
+      precio1: "$ 15.000",
+      nombre1: "Cheesecakes",
+      id1: "cheesecake",
+      imagen1: "../imagenes/cheesecake.jpg",
+      descripcion1: "Flan casero con caramelo.",
+    },
+    {
+      precio1: "$ 13.000",
+      nombre1: "Postres de chocolate",
+      id1: "postres-chocolate",
+      imagen1: "../imagenes/postres chocolate.png",
+      descripcion1: "Cremoso mousse de chocolate amargo.",
+    },
+    {
+      precio1: "$ 16.000",
+      nombre1: "postres artesanales",
+      id1: "postres-artesanales",
+      imagen1: "../imagenes/postres artesanales.jpg",
+      descripcion1: "Postre artesanal con café y queso mascarpone.",
+    },
   ],
 };
 
+const productosTop = {
+  "cheesecake-fresa": {
+    id: "cheesecake-fresa",
+    nombre: "Cheesecake de fresa",
+    precio: "$ 18.000",
+    imagen: "../imagenes/Cheesecakefresa.jpg",
+    descripcion:
+      "Suave cheesecake horneado con base de galleta y una capa de fresa natural, ideal para los amantes de lo cremoso y frutal.",
+  },
+  "torta-tres-leches": {
+    id: "torta-tres-leches",
+    nombre: "Torta tres leches",
+    precio: "$ 27.000",
+    imagen: "../imagenes/torta tres leches.webp",
+    descripcion:
+      "Torta esponjosa bañada en una mezcla de tres leches, coronada con un toque de crema batida. Uno de nuestros favoritos.",
+  },
+};
 /*ver mas lista productos*/
 
 function abrirListaProductos(categoria) {
@@ -59,11 +258,13 @@ function abrirListaProductos(categoria) {
               <p class="productoPrecio">${producto.precio}</p>
               <p class="productoNombre">${producto.nombre}</p>
             </div>
-          `
+          `,
         )
         .join("");
 
-      document.getElementById("contenidoPrincipal").classList.add("blurBackground");
+      document
+        .getElementById("contenidoPrincipal")
+        .classList.add("blurBackground");
       document.body.classList.add("modalAbierto");
     })
     .catch((error) => console.error("Error al cargar ListaProductos:", error));
@@ -71,7 +272,9 @@ function abrirListaProductos(categoria) {
 
 function cerrarListaProductos() {
   document.getElementById("modalContainer").innerHTML = "";
-  document.getElementById("contenidoPrincipal").classList.remove("blurBackground");
+  document
+    .getElementById("contenidoPrincipal")
+    .classList.remove("blurBackground");
   document.body.classList.remove("modalAbierto");
 }
 
@@ -85,6 +288,14 @@ function abrirDetallePorId(categoria, idProducto) {
   }
 }
 
+/* Busca en productosTop (usado por la sección "productos más vendidos") */
+function abrirDetalleTop(idProducto) {
+  const productoEncontrado = productosTop[idProducto];
+
+  if (productoEncontrado) {
+    abrirDetalleProducto(productoEncontrado);
+  }
+}
 
 function abrirDetallePorId1(categoria, idProducto) {
   const productos = productosPorCategoria[categoria] || [];
@@ -103,7 +314,6 @@ function abrirDetallePorId1(categoria, idProducto) {
 
 /* 
    MODAL DE DETALLE */
-  
 
 function abrirDetalleProducto(producto) {
   fetch("./detalleProducto/detalleProducto.html")
@@ -113,14 +323,19 @@ function abrirDetalleProducto(producto) {
       modalContainer.innerHTML = html;
 
       // Inyección de datos
-      document.getElementById("detalleImagen").src = producto.imagen || '';
-      document.getElementById("detalleImagen").alt = producto.nombre || '';
-      document.getElementById("detalleNombre").textContent = producto.nombre || '';
-      document.getElementById("detallePrecio").textContent = producto.precio || '';
-      document.getElementById("detalleDescripcion").textContent = producto.descripcion || '';
+      document.getElementById("detalleImagen").src = producto.imagen || "";
+      document.getElementById("detalleImagen").alt = producto.nombre || "";
+      document.getElementById("detalleNombre").textContent =
+        producto.nombre || "";
+      document.getElementById("detallePrecio").textContent =
+        producto.precio || "";
+      document.getElementById("detalleDescripcion").textContent =
+        producto.descripcion || "";
 
       // Efectos de fondo
-      document.getElementById("contenidoPrincipal").classList.add("blurBackground");
+      document
+        .getElementById("contenidoPrincipal")
+        .classList.add("blurBackground");
       document.body.classList.add("modalAbierto");
     })
     .catch((error) => console.error("Error al cargar DetalleProducto:", error));
