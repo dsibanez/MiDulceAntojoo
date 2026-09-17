@@ -236,6 +236,7 @@ const productosTop = {
       "Torta esponjosa bañada en una mezcla de tres leches, coronada con un toque de crema batida. Uno de nuestros favoritos.",
   },
 };
+
 /*ver mas lista productos*/
 
 function abrirListaProductos(categoria) {
